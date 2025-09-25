@@ -1,13 +1,13 @@
 
 
 /* CUSTOME PROPERTIES 666 */
-/* Custom Properties */
+
 :root {
-  --rojoSatanico: rgba(120, 20, 20, 0.8); /* Rojo sangre  */
+  --rojoSatanico: rgba(120, 20, 20, 0.8); /* Rojo sangre */
   --negro: rgba(10, 10, 10, 1); /* Abismo profundo */
-  --verdeCadaver: rgba(60, 70, 60, 0.85); /* Verde de cripta olvidada */
+  --verdeCadaver: rgba(60, 70, 60, 0.85); /* Verde podrido */
   --blanco: rgba(230, 230, 220, 0.95); /* Blanco ligeramente transparente */
-  --border-radius: 3px; /* Bordes más afilados para un toque maligno */
+  --border-radius: 3px; /* Bordes más afilados */
   --transition: all 0.3s ease-in-out;
   --fuentePrincipal: 'Uncial Antiqua', 'Georgia', serif; /* Tipografía blasfema */
 }
