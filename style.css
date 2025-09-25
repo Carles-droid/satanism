@@ -1,0 +1,161 @@
+
+
+/* CUSTOME PROPERTIES 666 */
+/* Custom Properties */
+:root {
+  --rojoSatanico: rgba(120, 20, 20, 0.8); /* Rojo sangre  */
+  --negro: rgba(10, 10, 10, 1); /* Abismo profundo */
+  --verdeCadaver: rgba(60, 70, 60, 0.85); /* Verde de cripta olvidada */
+  --blanco: rgba(230, 230, 220, 0.95); /* Blanco ligeramente transparente */
+  --border-radius: 3px; /* Bordes más afilados para un toque maligno */
+  --transition: all 0.3s ease-in-out;
+  --fuentePrincipal: 'Uncial Antiqua', 'Georgia', serif; /* Tipografía blasfema */
+}
+
+/* Estilos generales */
+body {
+  font-family: var(--fuentePrincipal);
+  color: var(--blanco);
+  background-color: var(--negro);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Botones */
+.boton-infernal {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--rojoSatanico);
+  color: var(--blanco);
+  text-decoration: none;
+  border-radius: var(--border-radius);
+  border: 1px solid rgba(120, 20, 20, 0.7);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.boton-infernal:hover {
+  background-color: rgba(120, 20, 20, 1);
+  box-shadow: 0 0 12px rgba(120, 20, 20, 0.6);
+  transform: translateY(-2px);
+}
+
+.boton-infernal--sacrificial {
+  background-color: transparent;
+  color: var(--verdeCadaver);
+  border: 2px solid var(--verdeCadaver);
+}
+
+.boton-infernal--sacrificial:hover {
+  background-color: var(--verdeCadaver);
+  color: var(--negro);
+  box-shadow: 0 0 10px rgba(60, 70, 60, 0.5);
+}
+
+/* Párrafos */
+.texto-necromántico {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--blanco);
+  margin: 1rem 0;
+  text-shadow: 0 0 3px rgba(10, 10, 10, 0.5);
+}
+
+.texto-necromántico--maldito {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--rojoSatanico);
+  text-shadow: 0 0 6px rgba(120, 20, 20, 0.4);
+  letter-spacing: 0.5px;
+}
+
+/* Navegación */
+.nav-abismo {
+  background-color: rgba(10, 10, 10, 0.97);
+  padding: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid var(--rojoSatanico);
+  box-shadow: 0 0 10px rgba(120, 20, 20, 0.3);
+}
+
+.nav-abismo__círculo {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-abismo__sigilo {
+  color: var(--blanco);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: var(--transition);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav-abismo__sigilo:hover {
+  color: var(--rojoSatanico);
+  text-shadow: 0 0 8px rgba(120, 20, 20, 0.7);
+}
+
+/* Footer */
+.footer-catacumba {
+  background-color: var(--negro);
+  color: var(--blanco);
+  padding: 1.5rem;
+  text-align: center;
+  border-top: 2px solid var(--verdeCadaver);
+  box-shadow: 0 -2px 8px rgba(60, 70, 60, 0.2);
+}
+
+.footer-catacumba__inscripción {
+  font-size: 0.85rem;
+  margin: 0.5rem 0;
+  opacity: 0.85;
+  text-shadow: 0 0 4px rgba(10, 10, 10, 0.5);
+}
+
+.footer-catacumba__runa {
+  color: var(--verdeCadaver);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.footer-catacumba__runa:hover {
+  color: var(--rojoSatanico);
+  text-decoration: none;
+  text-shadow: 0 0 6px rgba(120, 20, 20, 0.5);
+}
+
+/* Media Queries para responsividad */
+@media (max-width: 768px) {
+  .nav-abismo {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .nav-abismo__círculo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .boton-infernal {
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+  }
+
+  .texto-necromántico {
+    font-size: 1rem;
+  }
+}
