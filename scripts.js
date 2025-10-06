@@ -1,4 +1,4 @@
-// grungeEcos
+// grungeEcos...
 // Clase base para cada leyenda – encapsula data y genera "ecos" poéticos
 
 class grungeLegend {
