@@ -1,5 +1,5 @@
 // grungeEcos...
-// Clase base para cada leyenda – encapsula data y genera "ecos" poéticos
+// Clase base – encapsula data y genera "ecos"
 
 class grungeLegend {
     constructor({ nombre, banda, edadMuerte, causaMuerte, grungeVibes }) {
